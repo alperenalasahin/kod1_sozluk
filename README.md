@@ -1,2 +1,3 @@
-# kod1_sozluk
-Bu benim ilk kodum ve sözlüğüm
+# python_depo
+bu benim kişisel python kod depom
+

@@ -1,5 +1,6 @@
 TOKEN = {
     "prefix": ">",
-    "TOKEN": ""
+    "TOKEN": "TOKEN BURAYA YAZILICAK"
 }
 
+#Güvenlik sebeplerinden dolayı token yazılmamıştır

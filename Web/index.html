@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarayıcıda görünecek sekmenin adı</title>
+    <style>
+    iframe {
+        margin-top: 10px;
+        border-color: #ff9d00;
+        border-radius: 5px;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+       /* background-color: #ffffff; Web sayfasının arka plan rengi */
+        color: #333333; /* Metin rengi */
+    }
+
+    h1 {
+        font-size: 30px; /* Başlık yazı tipi boyutu */
+        font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    }
+    
+    h1:hover {
+        font-size: 30px; /* Başlık yazı tipi boyutu */
+        font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+        animation: color-change 3s infinite;
+    }
+
+    h2 {
+        font-size: 24; /* Başlık yazı tipi boyutu */
+        font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+        animation: color-example 5s infinite;
+    }
+
+    img:hover {
+        animation: image 5s;
+    }
+
+    p:hover {
+        animation: yazi 3s infinite;
+    }
+
+    @keyframes color-change {
+        0% {
+          color: blue;
+        }
+  
+        50% {
+        color: red;
+        }
+  
+        100% {
+        color: blue;
+        }
+    }
+
+    @keyframes color-example {
+        0% {
+          color: #116D6E;
+        }
+  
+        20% {
+            color: #333333;
+        }
+  
+        40% {
+            color: #ff9d00;
+        }
+
+        60% {
+            color: #4E3636;
+        }
+
+        80% {
+            color: #CD1818;
+        }
+
+        100% {
+            color: #00aaff;
+        }
+    }        
+
+    @keyframes image {
+        0% {
+          filter: brightness(100%);
+        }
+  
+        100% {
+            filter: brightness(10000%);
+        }
+    }
+    
+    @keyframes yazi {
+        0% {
+          background-color: #F9E0BB;
+        }
+
+        20% {
+          background-color: #FFC26F;
+        }
+
+        40% {
+          background-color: #C38154;
+        }
+
+        60% {
+          background-color: #ff9d00;
+        }
+
+        80% {
+          background-color: #C38154;
+        }
+
+        100% {
+          background-color: #FFC26F;
+        }
+    } 
+    
+    </style>
+</head>
+
+<body>
+    <h1>Bu büyük bir başlık!</h1>
+    <p>Bu sadece bir paragraf metni</p>
+    <h2>Bu daha az büyük bir başlık</h2>
+             <ul>
+                   <li>Bu bir madde işaretli liste öğesidir (ilk öğe)</li>
+                   <li>bu da ikinci öğe</li>
+             </ul>
+    <img src="subnautica.png" alt="Image1" style="height: 300px; width: 600px; display: block; margin: 0 auto;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LGcECozNXEw" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.meteoblue.com/tr/hava/widget/daily?geoloc=detect&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windgust=0&winddirection=0&uv=0&uv=1&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"  frameborder="10" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 378px; height: 420px"></iframe><div><!-- DO NOT REMOVE THIS LINK --></div>
+</body>
+
+</html> 
